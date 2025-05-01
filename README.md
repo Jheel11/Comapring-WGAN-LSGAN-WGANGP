@@ -78,20 +78,6 @@ tensorboard --logdir=runs
 > ✅ **Conclusion**: WGAN-GP shows the best generative quality, outperforming both LSGAN and WGAN in terms of IS and FID.
 
 ---
-
-## 📂 Directory Structure
-
-```
-├── models/                 # Saved model checkpoints
-├── outputs/                # Generated image samples per epoch
-├── runs/                   # TensorBoard logs
-├── data/                   # Processed MedMNIST dataset
-├── lsgan_train.py
-├── wgan_train.py
-├── wgan_gp_train.py
-├── utils.py
-├── evaluate.py
-└── README.md
 ```
 
 ---
